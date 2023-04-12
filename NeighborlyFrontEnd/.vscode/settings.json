@@ -29,5 +29,7 @@
         "env.bak{,/**}",
         "venv.bak{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/c5deb3d5-b610-4a6d-a071-e93f7a5350f4/resourceGroups/neighborly-app-resource/providers/Microsoft.Web/sites/neighborlyapplication",
+    "appService.deploySubpath": "."
 }
