@@ -14,7 +14,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     
     if id:
         try:
-            url = "mongodb+srv://paphuc:123456Abc@neighborlyapp.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
+            url = "mongodb+srv://paphuc:123456Abc@neighborly-app-db.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
             client = pymongo.MongoClient(url)
             database = client['azure']
             collection = database['advertisements']
